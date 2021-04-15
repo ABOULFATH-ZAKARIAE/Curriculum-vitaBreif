@@ -25,98 +25,91 @@
 
 
 
-   <div class="formation">       
-           <h4>FORMATION</h4>
-           
+<div class="formation">       
+  <h4>FORMATION</h4>
+</div>
+<div class="info-formation">
+  <div style=" width: 20%; margin: auto;">
+    <div class="langue">
+    <h5 class="lg">{{form2.date1}}</h5>
+    <p class="lg">{{form2.formation1}}</p>
     </div>
 
-	<table>
-                    <tbody>
-			<tr>
-                            <td>{{form2.date1}}</td>
-                            <th>{{form2.formation1}}</th>
-			</tr>
-			<tr>
-                            <td>{{form2.date2}}</td>
-                            <th>{{form2.formation2}}</th>
-			</tr>
-			<tr>
-                            <td>{{form2.date3}}</td>
-                            <th>{{form2.formation3}}</th>
-			</tr>
+    <div class="langue">
+    <h5 class="lg">{{form2.date2}}</h5>
+    <p class="lg">{{form2.formation2}}</p>
+    </div>
+    <div class="langue">
+    <h5 class="lg">{{form2.date3}}</h5>
+    <p class="lg">{{form2.formation3}}</p>
+      </div>
+  </div>
+</div>
 
-                    </tbody>
-                </table>
+
     
-   <div class="formation">       
-           <h4>EXPÉRIENCES PROFESSIONNELLES</h4>
-           
-    </div>  
-    <table>
-                    <tbody>
-			<tr>
-                            <td>{{form3.date1}}</td>
-                            <th>{{form3.experience1}}</th>
-			</tr>
-			<tr>
-                            <td>{{form3.date2}}</td>
-                            <th>{{form3.experience2}}</th>
-			</tr>
+<div class="formation">       
+  <h4>EXPÉRIENCES PROFESSIONNELLES</h4>           
+</div> 
 
-                    </tbody>
-                </table>   
+<div class="info-formation">
+  <div style=" width: 20%; margin: auto;">
+      <div class="langue">
+    <h5 class="lg">{{form3.date1}}</h5>
+    <p class="lg">{{form3.experience1}}</p>
+      </div>
+      <div class="langue">
+
+    <h5 class="lg">{{form2.date2}}</h5>
+    <p class="lg">{{form2.formation2}}</p>
+      </div>
+   <div class="langue">
+    <h5 class="lg">{{form3.date2}}</h5>
+    <p class="lg">{{form3.experience2}}</p>
+      </div>
+</div>
+</div> 
 
 <div class="formation">       
-           <h4>LANGUES</h4>
-           
+  <h4>LANGUES</h4>         
+</div>
+
+<div class="info-formation">
+  <div style=" width: 20%; margin: auto;">
+  <div class="langue">
+    <h5 class="lg">{{form4.type1}}</h5>
+    <p class="lg">{{form4.langue1}}</p>
+</div>
+<div class="langue">
+    <h5 class="lg">{{form4.type2}}</h5>
+    <p class="lg">{{form4.langue2}}</p>
+</div>
+<div class="langue">
+    <h5 class="lg">{{form4.type3}}</h5>
+    <p class="lg">{{form4.langue3}}</p>
+</div>
+<div class="langue">
+    <h5 class="lg">{{form4.type4}}</h5>
+    <p class="lg">{{form4.langue4}}</p>
+</div> 
+</div>
+</div>
+<div class="formation">       
+  <h4>CENTRES D’INTERET</h4>         
+</div>
+<div class="info-formation">
+    <div style=" width: 20%; margin: auto;">
+      <div class="langue">
+    <p>{{form3.experience1}}</p>
+      </div>
+    <div class="langue">
+    <p>{{form5.loiser2}}</p>
     </div>
-
-	<table>
-                    <tbody>
-			<tr>
-                            <td>{{form4.type1}}</td>
-                            <th>{{form4.langue1}}</th>
-			</tr>
-			<tr>
-                            <td>{{form4.type2}}</td>
-                            <th>{{form4.langue2}}</th>
-			</tr>
-			<tr>
-                            <td>{{form4.type3}}</td>
-                            <th>{{form4.langue3}}</th>
-			</tr>
-			<tr>
-                            <td>{{form4.type4}}</td>
-                            <th>{{form4.langue4}}</th>
-			</tr>
-                    </tbody>
-                </table>
-    
-   <div class="formation">       
-           <h4>CENTRES D’INTERET</h4>
-           
-    </div>  
-    <table>
-                    <tbody>
-			<tr>
-                           
-                            <th>{{form5.loiser1}}</th>
-			</tr>
-			<tr>
-                           
-                            <th>{{form5.loiser2}}</th>
-			</tr>
-			<tr>
-                           
-                            <th>{{form5.loiser3}}</th>
-			</tr>
-
-                    </tbody>
-                </table>   
-
-
-
-
+    <div class="langue">
+    <p>{{form5.loiser3}}</p>
+      </div>
+    </div>
+</div> 
 </div> 
 
 

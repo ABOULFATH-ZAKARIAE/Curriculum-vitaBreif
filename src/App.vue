@@ -39,16 +39,21 @@ form{
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #42b;
+}
+.lg{
+  margin: 20px;
 }
 
 #CV{
     width: 50%;
-    height: 90vh;
+    height: 147vh;
     margin-left: 25%;
   border: 1px solid white;
 }
-
+.langue{
+  display: flex;
+}
 #infoPersonnel{
     float: left;
     text-align: left;
@@ -69,24 +74,14 @@ img{
       width: 85%;
 }
 .formation{
-    width: 71%;
-    margin-top: 1%;
-    color: blue;
+    width: 50%;
+    margin-top: 3%;
+    color: darkcyan;
     float: left;
-    margin-left: 14%;
+    margin-left: 23%;
     border: 1px solid;
 }
-table{
-  float: left;
-    margin-left: 4%;
-    margin-top: 3%;
-}
-td{
-  width: 20%;
-  color: blue;
-}
-th{
-  width: 80%;
-
+.info-formation {
+    margin-top: 96px;
 }
 </style>
