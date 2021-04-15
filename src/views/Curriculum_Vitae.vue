@@ -113,7 +113,9 @@
 </div> 
 
 
-     
+  <router-link to="/download">
+        <button>download</button>
+  </router-link>    
 
 
 </template>
@@ -123,7 +125,7 @@
   export default {
 
 
-
+    name : "curriculum-vitae",
     data() {
       return {
 
@@ -133,7 +135,9 @@
         form4: {},
         form5: {},
 
-      }
+        show: true
+
+      };
     },
     mounted() {
 
@@ -143,7 +147,10 @@
       this.form4 = JSON.parse(localStorage.getItem('form4'))
       this.form5 = JSON.parse(localStorage.getItem('form5'))
 
-    }
-
-  }
+    },
+     methods: {
+    goToDownload() {
+    },
+     },
+  };
 </script>
